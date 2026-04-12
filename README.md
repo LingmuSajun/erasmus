@@ -56,23 +56,23 @@ claude
 ### 一括実行（おすすめ）
 
 ```bash
-/project:auto
+/book-auto
 ```
 
-すべてのステップを自動で実行します。途中でセッションが切れても、再度 `/project:auto` で中断箇所から再開します。
+すべてのステップを自動で実行します。途中でセッションが切れても、再度 `/book-auto` で中断箇所から再開します。
 
 ### ステップごとに実行
 
 ```bash
-/project:outline          # Step 1: アウトライン作成
-/project:write all        # Step 2: 全章を順番に執筆
-/project:write 3          #         第3章だけ執筆
-/project:review all       # Step 3: 全章レビュー + 全体チェック
-/project:review 3         #         第3章だけレビュー
-/project:revise all       # Step 4: 指摘のある全章を修正
-/project:re-review all    # Step 5: 再レビュー
-/project:finalize         # Step 6: 最終ファイル生成
-/project:status           # いつでも進捗確認
+/book-outline          # Step 1: アウトライン作成
+/book-write all        # Step 2: 全章を順番に執筆
+/book-write 3          #         第3章だけ執筆
+/book-review all       # Step 3: 全章レビュー + 全体チェック
+/book-review 3         #         第3章だけレビュー
+/book-revise all       # Step 4: 指摘のある全章を修正
+/book-re-review all    # Step 5: 再レビュー
+/book-finalize         # Step 6: 最終ファイル生成
+/book-status           # いつでも進捗確認
 ```
 
 ## 出力ファイル
