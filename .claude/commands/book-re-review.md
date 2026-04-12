@@ -2,7 +2,7 @@
 
 修正後の原稿を再レビューしてください。
 
-引数・動作は `/project:review` と同じ（章番号指定 / `all` / `overall`）。
+引数・動作は `/book-review` と同じ（章番号指定 / `all` / `overall`）。
 
 ## 前提条件
 
@@ -14,7 +14,7 @@
 1. `progress.yml` を読み、現在のラウンド番号を確認する
 2. `book-config.yml` のレビュー最大回数（`review.max_rounds`）を確認する
 3. `review-criteria.md` を読み、レビュー基準を再確認する
-4. `/project:review` と同じ2段階（章単位 → 全体整合性）でレビューする
+4. `/book-review` と同じ2段階（章単位 → 全体整合性）でレビューする
 5. 加えて、前回の指摘事項が適切に修正されているかを確認する
 6. 修正により新たな問題が生じていないかを確認する
 7. 結果を `output/reviews/review-round{N}-ch{章番号}.md` / `output/reviews/review-round{N}-overall.md` に保存する
@@ -33,15 +33,15 @@
 
 - 残存する指摘事項を `output/reviews/remaining-issues.md` に記録する
 - 「完成（条件付き）」と判定する
-- ユーザーに残課題の一覧を表示し、`/project:finalize` を案内する
+- ユーザーに残課題の一覧を表示し、`/book-finalize` を案内する
 
 ## 出力フォーマット
 
-`/project:review` と同じフォーマットを使用する。
+`/book-review` と同じフォーマットを使用する。
 前回からの改善点は「✅ 解消済み」、未解消は「⚠️ 未解消」でマークする。
 
 ## 完了後
 
-- 「完成」→ `/project:finalize` を案内
-- 「修正が必要」→ `/project:revise` を案内
-- 最大回数到達 → 残課題を表示の上 `/project:finalize` を案内
+- 「完成」→ `/book-finalize` を案内
+- 「修正が必要」→ `/book-revise` を案内
+- 最大回数到達 → 残課題を表示の上 `/book-finalize` を案内

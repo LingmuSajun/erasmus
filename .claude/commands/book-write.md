@@ -12,7 +12,7 @@
 
 ## 前提条件
 
-- `output/outline.md` が存在すること（なければ `/project:outline` を案内する）
+- `output/outline.md` が存在すること（なければ `/book-outline` を案内する）
 
 ## 手順
 
@@ -92,5 +92,5 @@
 - セクション数
 - 全体の進捗状況（例: 3/8章 完了）
 - 次のステップの案内
-  - 未執筆の章がある → `/project:write` で次の章へ
-  - 全章完了 → `/project:review` へ
+  - 未執筆の章がある → `/book-write` で次の章へ
+  - 全章完了 → `/book-review` へ
