@@ -1,0 +1,49 @@
+# ============================================================
+# 進捗管理ファイル（自動更新）
+# ============================================================
+# このファイルはClaude Codeが自動的に更新します。
+# 手動で編集しないでください。
+# セッションをまたいで作業を再開する際の状態復元に使用します。
+
+# --- 全体ステータス ---
+# not_started / outlining / writing / reviewing / revising / finalizing / completed
+status: not_started
+
+# --- アウトライン ---
+outline:
+  status: not_started         # not_started / completed
+  file: null
+
+# --- 執筆進捗 ---
+# 各章のステータス: not_started / writing / draft_completed
+writing:
+  introduction:
+    status: not_started
+    sections_completed: 0
+    file: null
+  chapters: []
+  # 章数に応じて自動生成される:
+  # - chapter: 1
+  #   status: not_started
+  #   sections_completed: 0
+  #   file: null
+  conclusion:
+    status: not_started
+    sections_completed: 0
+    file: null
+
+# --- レビュー進捗 ---
+review:
+  current_round: 0
+  chapters_reviewed: []       # レビュー済み章番号リスト
+  overall_check: not_started  # not_started / completed
+  latest_verdict: null        # pass / needs_revision / force_complete
+  history: []
+  # ラウンドごとの記録が自動追加される:
+  # - round: 1
+  #   verdict: needs_revision
+  #   file: output/reviews/review-round1.md
+
+# --- 修正進捗 ---
+revision:
+  chapters_revised: []        # 修正済み章番号リスト

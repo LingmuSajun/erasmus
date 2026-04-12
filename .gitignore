@@ -1,0 +1,12 @@
+# Output files (generated, not tracked)
+output/drafts/*.md
+output/reviews/*.md
+output/final/*
+
+# Keep directory structure
+!output/drafts/.gitkeep
+!output/reviews/.gitkeep
+!output/final/.gitkeep
+
+# Claude Code local settings
+.claude/settings.local.json
