@@ -71,7 +71,7 @@ erasmus/
 - 各章は独立して読めるが、全体として一貫した流れを持つこと
 - ファイルの読み書きは必ず `output/` ディレクトリ配下で行う
 - 原稿ファイル名: `output/drafts/00-はじめに.md`, `output/drafts/01-第1章.md`, ...
-- レビューファイル名: `output/reviews/review-round{N}-ch{章番号}.md`（章別）、`review-round{N}-overall.md`（全体）
+- レビューファイル名: `output/reviews/review-round{N}-ch{章番号}.md`（章別）、`output/reviews/review-round{N}-overall.md`（全体）
 - 最終成果物: `output/final/{タイトル}.md`, `output/final/{タイトル}.pdf`
 - 進捗管理: `progress.yml`（自動更新。手動編集しない）
 

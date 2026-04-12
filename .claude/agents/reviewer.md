@@ -1,7 +1,7 @@
 ---
 name: reviewer
 description: 書籍原稿のレビュー時に起動する。論理構成・読みやすさ・整合性を専門的に評価する編集者エージェント。
-model: claude-sonnet-4-20250514
+model: claude-sonnet-4-6
 ---
 
 # レビュー編集者エージェント

@@ -1,4 +1,5 @@
 # Output files (generated, not tracked)
+output/outline.md
 output/drafts/*.md
 output/reviews/*.md
 output/final/*
