@@ -17,7 +17,7 @@
 
 1. `progress.yml` を読み、現在のレビューラウンドと修正状況を確認する
 2. 対象章のレビューファイル（`review-round{N}-ch{章番号}.md`）を読む
-3. 全体整合性チェック（`review-round{N}-overall.md`）があれば、対象章に関する指摘も確認する
+3. 全体整合性チェック（`output/reviews/review-round{N}-overall.md`）があれば、対象章に関する指摘も確認する
 4. `book-theme.md` を読み、トーン・口調を再確認する
 5. `book-config.yml` を読み、文字数制約を再確認する
 6. 対象章の原稿（`output/drafts/`）を読み込む

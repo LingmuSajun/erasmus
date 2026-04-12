@@ -17,7 +17,7 @@
 4. `/project:review` と同じ2段階（章単位 → 全体整合性）でレビューする
 5. 加えて、前回の指摘事項が適切に修正されているかを確認する
 6. 修正により新たな問題が生じていないかを確認する
-7. 結果を `output/reviews/review-round{N}-ch{章番号}.md` / `review-round{N}-overall.md` に保存する
+7. 結果を `output/reviews/review-round{N}-ch{章番号}.md` / `output/reviews/review-round{N}-overall.md` に保存する
 8. `progress.yml` を更新する
 
 ## 判定基準

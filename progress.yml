@@ -42,7 +42,10 @@ review:
   # ラウンドごとの記録が自動追加される:
   # - round: 1
   #   verdict: needs_revision
-  #   file: output/reviews/review-round1.md
+  #   overall_file: output/reviews/review-round1-overall.md
+  #   chapter_files:
+  #     - output/reviews/review-round1-ch1.md
+  #     - output/reviews/review-round1-ch2.md
 
 # --- 修正進捗 ---
 revision:
