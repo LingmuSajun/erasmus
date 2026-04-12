@@ -1,6 +1,6 @@
 # 📖 Erasmus — Claude Code 書籍自動執筆システム
 
-> *デジデリウス・エラスムス（1466–1536）—— ルネサンス最大の知識人。批評精神と教養の象徴。*
+> _デジデリウス・エラスムス（1466–1536）—— ルネサンス最大の知識人。批評精神と教養の象徴。_
 
 Claude Codeのプロジェクトカスタマイズ機能を活用した、ノンフィクション書籍の自動執筆環境です。
 
@@ -77,15 +77,15 @@ claude
 
 ## 出力ファイル
 
-| ファイル | 場所 | 説明 |
-| --- | --- | --- |
-| アウトライン | `output/outline.md` | 全章の構成（セクション構成含む） |
-| 原稿 | `output/drafts/*.md` | 各章の原稿 |
-| 章別レビュー | `output/reviews/review-round{N}-ch{章}.md` | 章ごとのレビュー指摘 |
-| 全体チェック | `output/reviews/review-round{N}-overall.md` | 全体整合性チェック結果 |
-| 進捗 | `progress.yml` | 執筆・レビューの進捗状態 |
-| **最終MD** | `output/final/{タイトル}.md` | 統合済み最終原稿 |
-| **最終PDF** | `output/final/{タイトル}.pdf` | PDF版 |
+| ファイル     | 場所                                        | 説明                             |
+| ------------ | ------------------------------------------- | -------------------------------- |
+| アウトライン | `output/outline.md`                         | 全章の構成（セクション構成含む） |
+| 原稿         | `output/drafts/*.md`                        | 各章の原稿                       |
+| 章別レビュー | `output/reviews/review-round{N}-ch{章}.md`  | 章ごとのレビュー指摘             |
+| 全体チェック | `output/reviews/review-round{N}-overall.md` | 全体整合性チェック結果           |
+| 進捗         | `progress.yml`                              | 執筆・レビューの進捗状態         |
+| **最終MD**   | `output/final/{タイトル}.md`                | 統合済み最終原稿                 |
+| **最終PDF**  | `output/final/{タイトル}.pdf`               | PDF版                            |
 
 ## カスタマイズ
 

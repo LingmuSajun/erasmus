@@ -6,20 +6,20 @@
 
 ```markdown
 erasmus/
-├── CLAUDE.md              # このファイル（プロジェクト全体のルール）
-├── book-config.yml        # 章数・文字数・セクション分割などの構造設定
-├── book-theme.md          # テーマ・トーン・口調・キーワード（ユーザー編集）
-├── review-criteria.md     # レビュー基準・観点（ユーザー編集）
-├── progress.yml           # 進捗管理（自動更新。手動編集しない）
+├── CLAUDE.md # このファイル（プロジェクト全体のルール）
+├── book-config.yml # 章数・文字数・セクション分割などの構造設定
+├── book-theme.md # テーマ・トーン・口調・キーワード（ユーザー編集）
+├── review-criteria.md # レビュー基準・観点（ユーザー編集）
+├── progress.yml # 進捗管理（自動更新。手動編集しない）
 ├── .claude/
-│   ├── commands/          # ワークフローコマンド
-│   ├── skills/            # 執筆スキル
-│   └── agents/            # レビューエージェント
+│ ├── commands/ # ワークフローコマンド
+│ ├── skills/ # 執筆スキル
+│ └── agents/ # レビューエージェント
 └── output/
-    ├── outline.md         # アウトライン
-    ├── drafts/            # 各章の原稿
-    ├── reviews/           # レビュー指摘事項
-    └── final/             # 最終成果物（.md + .pdf）
+├── outline.md # アウトライン
+├── drafts/ # 各章の原稿
+├── reviews/ # レビュー指摘事項
+└── final/ # 最終成果物（.md + .pdf）
 ```
 
 ## ワークフロー
@@ -85,4 +85,4 @@ erasmus/
 ## 文字数について
 
 - `book-config.yml` の文字数は「目安」であり、±10%の範囲で調整してよい
-- 文字数にはMarkdownの記法（#, *, - など）は含めない。本文テキストのみでカウントする
+- 文字数にはMarkdownの記法（#, \*, - など）は含めない。本文テキストのみでカウントする

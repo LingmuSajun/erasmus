@@ -11,7 +11,7 @@ status: not_started
 
 # --- アウトライン ---
 outline:
-  status: not_started         # not_started / completed
+  status: not_started # not_started / completed
   file: null
 
 # --- 執筆進捗 ---
@@ -35,9 +35,9 @@ writing:
 # --- レビュー進捗 ---
 review:
   current_round: 0
-  chapters_reviewed: []       # レビュー済み章番号リスト
-  overall_check: not_started  # not_started / completed
-  latest_verdict: null        # pass / needs_revision / force_complete
+  chapters_reviewed: [] # レビュー済み章番号リスト
+  overall_check: not_started # not_started / completed
+  latest_verdict: null # pass / needs_revision / force_complete
   history: []
   # ラウンドごとの記録が自動追加される:
   # - round: 1
@@ -49,4 +49,4 @@ review:
 
 # --- 修正進捗 ---
 revision:
-  chapters_revised: []        # 修正済み章番号リスト
+  chapters_revised: [] # 修正済み章番号リスト
