@@ -26,17 +26,17 @@ erasmus/
 
 以下の順序でコマンドを実行する：
 
-1. `/project:outline` → アウトライン作成
-2. `/project:write [章番号|all]` → 1章ずつ本文執筆（章番号指定 or 全章順次実行）
-3. `/project:review [章番号|all]` → 章単位レビュー + 全体整合性チェック
-4. `/project:revise [章番号|all]` → レビュー指摘に基づく修正
-5. `/project:re-review [章番号|all]` → 再レビュー（OKなら完成判定）
-6. `/project:finalize` → 最終ファイル生成（.md + .pdf）
+1. `/book-outline` → アウトライン作成
+2. `/book-write [章番号|all]` → 1章ずつ本文執筆（章番号指定 or 全章順次実行）
+3. `/book-review [章番号|all]` → 章単位レビュー + 全体整合性チェック
+4. `/book-revise [章番号|all]` → レビュー指摘に基づく修正
+5. `/book-re-review [章番号|all]` → 再レビュー（OKなら完成判定）
+6. `/book-finalize` → 最終ファイル生成（.md + .pdf）
 
 ユーティリティ:
 
-- `/project:auto` → 上記すべてを順番に自動実行（途中再開対応）
-- `/project:status` → 現在の進捗状況を表示
+- `/book-auto` → 上記すべてを順番に自動実行（途中再開対応）
+- `/book-status` → 現在の進捗状況を表示
 
 ## 設計原則: 分割と再開
 
@@ -57,7 +57,7 @@ erasmus/
 
 - `progress.yml` に執筆・レビューの進捗を記録する
 - セッションが中断しても、次回起動時に途中から再開できる
-- `/project:status` でいつでも進捗を確認できる
+- `/book-status` でいつでも進捗を確認できる
 
 ### 2段階レビュー
 
