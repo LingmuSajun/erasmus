@@ -1,3 +1,5 @@
+# 最終成果物の生成
+
 最終成果物を生成してください。
 
 ## 前提条件
@@ -49,6 +51,7 @@
 以下のコマンドでPDFを生成する。使用可能なツールに応じて切り替える:
 
 ### pandoc の場合
+
 ```bash
 pandoc "output/final/{タイトル}.md" \
   -o "output/final/{タイトル}.pdf" \
@@ -61,19 +64,23 @@ pandoc "output/final/{タイトル}.md" \
 ```
 
 ### wkhtmltopdf の場合
+
 まずMarkdownをHTMLに変換し、次にPDFに変換する:
+
 ```bash
 pandoc "output/final/{タイトル}.md" -o "/tmp/book.html" --standalone --metadata title="{タイトル}"
 wkhtmltopdf --encoding utf-8 "/tmp/book.html" "output/final/{タイトル}.pdf"
 ```
 
 ### いずれも使えない場合
+
 PDFの生成をスキップし、Markdownファイルのみを最終成果物として案内する。
 PDF変換ツールのインストール方法を提示する。
 
 ## 完了後
 
 以下を表示する:
+
 - 最終ファイルのパスとサイズ
 - 総文字数
 - 章ごとの文字数一覧

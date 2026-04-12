@@ -29,15 +29,18 @@ sudo apt install wkhtmltopdf pandoc
 ### 3. 設定ファイルを編集
 
 **`book-config.yml`** を開き、以下を設定:
+
 - `title`: 書籍タイトル
 - `chapters.count`: 章数
 - `word_counts`: 各パートの文字数
 
 **`book-theme.md`** を開き、以下を記述:
+
 - テーマ、ターゲット読者、トーン、口調、キーワードなど
 - テンプレートの `（例：...）` をすべて実際の内容に置き換える
 
 **`review-criteria.md`** を開き、以下を記述:
+
 - レビューで重視する観点と優先度
 - 許容すること、絶対に見逃さないこと
 
@@ -52,7 +55,7 @@ claude
 
 ### 一括実行（おすすめ）
 
-```
+```bash
 /project:auto
 ```
 
@@ -60,7 +63,7 @@ claude
 
 ### ステップごとに実行
 
-```
+```bash
 /project:outline          # Step 1: アウトライン作成
 /project:write all        # Step 2: 全章を順番に執筆
 /project:write 3          #         第3章だけ執筆
@@ -75,7 +78,7 @@ claude
 ## 出力ファイル
 
 | ファイル | 場所 | 説明 |
-|---------|------|------|
+| --- | --- | --- |
 | アウトライン | `output/outline.md` | 全章の構成（セクション構成含む） |
 | 原稿 | `output/drafts/*.md` | 各章の原稿 |
 | 章別レビュー | `output/reviews/review-round{N}-ch{章}.md` | 章ごとのレビュー指摘 |
