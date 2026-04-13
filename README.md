@@ -8,10 +8,12 @@ Claude Codeのプロジェクトカスタマイズ機能を活用した、ノン
 
 ### 1. プロジェクトをコピー
 
+本テンプレートをクローンし、新しい書籍用ディレクトリに複製します。`my-book` は例なので、好きな名前に読み替えてください。
+
 ```bash
-# 任意のディレクトリにコピー
-cp -r erasmus ~/my-book
-cd ~/my-book
+git clone https://github.com/LingmuSajun/erasmus.git
+cp -r erasmus my-book
+cd my-book
 ```
 
 ### 2. PDF変換ツールのインストール（任意）
@@ -46,8 +48,9 @@ sudo apt install wkhtmltopdf pandoc
 
 ### 4. Claude Codeを起動
 
+手順1で移動したディレクトリ（`my-book` など）でそのまま実行します。
+
 ```bash
-cd ~/my-book
 claude
 ```
 
